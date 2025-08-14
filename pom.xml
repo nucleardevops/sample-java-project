@@ -27,10 +27,7 @@
             <plugin>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.2</version>
-                <configuration>
-                    <source>1.6</source>
-                    <target>1.6</target>
-                </configuration>
+                <!-- No hardcoded Java version here, will use <properties> values -->
             </plugin>
             <plugin>
                 <artifactId>maven-war-plugin</artifactId>
